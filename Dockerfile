@@ -1,5 +1,5 @@
-FROM sequenceiq/hadoop-docker:2.7.1
-MAINTAINER SequenceIQ
+FROM nicerobot/docker-hadoop:2.7.1
+MAINTAINER SimonArnu
 
 #support for Hadoop 2.6.0
 RUN curl -s http://apache.lauf-forum.at/spark/spark-1.6.1/spark-1.6.1-bin-hadoop2.6.tgz | tar -xz -C /usr/local/
